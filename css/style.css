@@ -1,0 +1,138 @@
+@charset "utf-8";
+body{
+    padding:0;
+    margin:0;background:red;
+}
+/* strat navbar coding */
+.logo{
+    border:2px solid #ddd;
+    border-radius:50%;
+    padding:3px;
+    box-shadow:0px 0px 2px gray;
+}
+.top-nav{
+    box-shadow:0px 5px 8px 0px gray;
+}
+.nav-link .active:hover{
+    background:red;
+} 
+#home{
+    margin-top:67px;
+    overflow: hidden;
+    margin-bottom:0 !important;
+}
+.text{
+    padding:40px;
+}
+#home .text h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+    margin-top:20px;
+    letter-spacing: 2px;
+
+}
+@media(max-width:768px)
+{
+    #home p {
+        text-align:justify;
+    }
+    .slide_container p{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+        letter-spacing: 2px;
+        font-size: 20px; 
+          
+    }
+    .col-md-4{
+        padding-bottom:20px;
+    }
+}
+@media(min-width:769px)
+{
+    #home p {
+        text-align:center;
+        letter-spacing: 2px;
+        font-size:25px;
+    }
+}
+/* end header coding */
+#services{
+    background:#dddd;
+    overflow: hidden;   
+    padding-bottom:40px; 
+}
+#services span{
+    letter-spacing: 2px;
+    padding:5px;
+
+}
+.header-ser{
+    padding-top:20px;
+    margin-bottom:30px;
+}
+.services_icon{
+    border:2px solid #ccc;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background:white;
+    padding:7px;
+    text-align: center;
+}
+/* slide strat coding  */
+.slide_container{
+    width:100%;
+   padding-bottom:50px;
+    padding-top:50px;
+}
+.home_img{
+    border-radius: 50%;
+    height:180px;
+    width:180px;
+    border:1px solid #ccc;
+    padding:2px;
+    box-shadow: 0px 0px 5px #ddd;
+}
+.slide_container h1{
+    text-align:center;
+    padding-bottom:40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+}
+.slide_container h4{
+    font-size:30px;
+    padding-top:10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+}
+.slide_container p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+    letter-spacing: 2px;
+    font-size: 20px;   
+}
+/* start priceng coding */
+.priceng_div_box{
+    background:#b1afaf;
+}
+.priceng_div_box .main_text{
+    padding-bottom:20px;
+    padding-top:10px;
+}
+.card button {
+    padding-left:28px;
+    padding-right:28px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:4px;
+    border:none;
+}
+.card button a{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+}
+/* stsrt content us coding */
+.content{
+    background: rgb(88, 232, 248);
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.content h1{
+    text-align:center;
+}
